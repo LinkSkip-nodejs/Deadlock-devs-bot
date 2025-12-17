@@ -1,8 +1,0 @@
-node_modules/
-.env
-secrets.plain.json
-pm2.log
-pids/
-logs/
-.DS_Store
-secrets.enc 
