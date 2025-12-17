@@ -1,0 +1,38 @@
+{
+  "1449962787110649920": {
+    "1443758537934114906": [
+      {
+        "rule": "blockedWords",
+        "reason": "Blocked word detected: fuck",
+        "at": 1765857150497
+      },
+      {
+        "rule": "blockedWords",
+        "reason": "Blocked word detected: fuck",
+        "at": 1765857156170
+      },
+      {
+        "rule": "blockedWords",
+        "reason": "Blocked word detected: fuck",
+        "at": 1765857161593
+      },
+      {
+        "rule": "blockedWords",
+        "reason": "Blocked word detected: fuck",
+        "at": 1765858163058
+      },
+      {
+        "rule": "emoji",
+        "reason": "Too many emoji (31/20).",
+        "at": 1765858196432
+      }
+    ],
+    "1289787434388951115": [
+      {
+        "rule": "emoji",
+        "reason": "Too many emoji (47/20).",
+        "at": 1765857528099
+      }
+    ]
+  }
+}

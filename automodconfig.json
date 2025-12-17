@@ -1,0 +1,73 @@
+{
+  "enabled": true,
+  "logChannelId": "1450323962012897311",
+  "bypassRoles": [],
+  "whitelistChannels": [],
+  "deleteMessage": true,
+  "replyToUser": true,
+  "replyMessage": "Your message was removed by AutoMod due to inappropriate language.",
+  "cooldownSeconds": 5,
+  "rules": [
+    {
+      "name": "blockedWords",
+      "severity": "warn",
+      "blocked": [
+        "fuck",
+        "fucking",
+        "shit",
+        "bullshit",
+        "asshole",
+        "bitch",
+        "pussy",
+        "dick",
+        "cock",
+        "cunt",
+        "bastard",
+        "nigger",
+        "nigga",
+        "fag",
+        "faggot",
+        "slut",
+        "whore",
+        "douche",
+        "douchebag",
+        "retard",
+        "idiot",
+        "suicide",
+        "kill yourself"
+      ]
+    },
+    {
+      "name": "discordInvites",
+      "severity": "mute",
+      "block": true,
+      "durationMinutes": 10
+    },
+    {
+      "name": "blockedDomains",
+      "severity": "mute",
+      "domains": [
+        "bit.ly",
+        "tinyurl.com",
+        "grabify.link"
+      ],
+      "durationMinutes": 10
+    },
+    {
+      "name": "mentions",
+      "severity": "warn",
+      "max": 5
+    },
+    {
+      "name": "emoji",
+      "severity": "warn",
+      "max": 20
+    },
+    {
+      "name": "caps",
+      "severity": "warn",
+      "minLength": 12,
+      "maxPercent": 70
+    }
+  ]
+}
